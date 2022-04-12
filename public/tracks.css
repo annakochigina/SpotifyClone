@@ -1,0 +1,52 @@
+.track_info {
+    display: flex;
+}
+
+.track_info *{
+    margin: 0;
+    padding: 0;
+}
+
+.button_play {
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    border:none;
+}
+
+.track_image {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.track_header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 13px;
+    color: aliceblue;
+}
+
+.track_first_header {
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.track_second_header {
+    font-size: 12px;
+    margin-left: 60px;
+}
+
+.track_number {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.track_time {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 16px;
+    margin-right: 30px;
+}

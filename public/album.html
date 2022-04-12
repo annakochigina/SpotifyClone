@@ -3,6 +3,9 @@
     <head>
         <title>Spotify - Альбомы</title>
         <link rel="stylesheet" href="./album.css"/>
+        <link rel="stylesheet" href="./header_and_aside.css"/>
+        <link rel="stylesheet" href="./tracks.css"/>
+        <meta charset="UTF-8" >
     </head>
     <body class="app">
         <header class="header">
@@ -14,10 +17,10 @@
                 <img src="./image/header_profile.jpg" alt="Имя пользователя" width="50" height="50"/>
                 <div class="navigation_profile">
                     <ul>
-                        <li><a href="">Анна</a>
+                        <li class="navigation_point"><a class="point" href="">Анна</a>
                             <ul>
-                                <li><a href="">Профиль</a></li>
-                                <li><a href="">Выход</a></li>
+                                <li class="drop_down_menu_point"><a class="point" href="">Профиль</a></li>
+                                <li class="drop_down_menu_point"><a class="point"  href="">Выход</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -29,19 +32,19 @@
                 <ul class="menu">
                     <li class="tag">
                         <img src="./image/aside_popular.png" width="30px" height="30px"/>
-                        <a href="./popular.html">Популярное</a>
+                        <a class="link_tag" href="./popular.html">Популярное</a>
                     </li>
                     <li class="tag">
                         <img src="./image/aside_playlists.png" width="30px" height="30px"/>
-                        <a href="./my_playlist.html">Мои плейлисты</a>
+                        <a class="link_tag" href="./my_playlist.html">Мои плейлисты</a>
                     </li>
                     <li class="tag">
                         <img src="./image/aside_compilation.png" width="30px" height="30px"/>
-                        <a href="">Подборки</a>
+                        <a class="link_tag" href="">Подборки</a>
                     </li>
                     <li class="tag">
                         <img src="./image/aside_search.png" width="30px" height="30px"/>
-                        <a href="">Поиск</a>
+                        <a class="link_tag" href="">Поиск</a>
                     </li>
                 </ul>
             </a>

@@ -1,12 +1,9 @@
-*{
+.app {
     margin: 0;
     padding: 0;
-}
-
-.app {
     display: grid;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     grid-template-rows: min-content 1fr 1fr;
     font-family: Georgia, serif;
 }
@@ -40,12 +37,12 @@
     margin-right: 300px;
 }
 
-.navigation ul li {
+.navigation_point{
     margin: 0px 5px 0 0;
     display:inline-block;
 }
 
-.navigation a {
+.point {
     display:block;
     padding-right: 75px;
     color:rgb(255, 255, 255);
@@ -54,18 +51,18 @@
     text-decoration:none;
 }
 
-.navigation a:hover {
+.navigation :hover {
     color:rgb(123, 214, 18);
 }
 
-.navigation ul ul {
+.drop_down_menu {
     display: none;
     position: absolute;
     top: 100%;
 }
 
-.navigation ul li:hover > ul {
-    display:inherit
+.drop_down_menu_point :hover {
+    display:inherit;
 }
 
 .section_by_popular {
