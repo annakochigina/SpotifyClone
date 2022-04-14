@@ -1,12 +1,9 @@
-*{
+.app {
     margin: 0;
     padding: 0;
-}
-
-.app {
     display: grid;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     grid-template-rows: min-content 1fr 1fr;
     font-family: Georgia, serif;
 }
@@ -22,13 +19,13 @@
 .header__logo {
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 16%;
 }
 
 .header__title {
     font-size: 30px;
     font-family: Georgia, serif;
-    padding-left: 25px;
+    padding-left: 5%;
     color: rgb(255, 255, 255);
 }
 
@@ -37,35 +34,35 @@
 }
 
 .navigation {
-    margin-right: 300px;
+    margin-right: 16%;
 }
 
-.navigation ul li {
-    margin: 0px 5px 0 0;
+.navigation_point{
+    margin: 0px 3px 0px;
     display:inline-block;
 }
 
-.navigation a {
+.point {
     display:block;
-    padding-right: 75px;
+    padding-right: 15%;
     color:rgb(255, 255, 255);
     font-size:20px;
     line-height: 60px;
     text-decoration:none;
 }
 
-.navigation a:hover {
+.navigation :hover {
     color:rgb(123, 214, 18);
 }
 
-.navigation ul ul {
+.drop_down_menu {
     display: none;
     position: absolute;
     top: 100%;
 }
 
-.navigation ul li:hover > ul {
-    display:inherit
+.drop_down_menu_point :hover {
+    display:inherit;
 }
 
 .section_by_popular {
@@ -77,8 +74,8 @@
 .popular {
     display: flex;
     align-items: center;
-    color: rgb(255, 255, 255); 
-    margin-left: 300px;
+    color: rgb(255, 255, 255);
+    margin-left: 16%;
 }
 
 .first_text {
@@ -88,7 +85,7 @@
 
 .second_text {
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 .button_popular {
@@ -96,8 +93,8 @@
     background: #000000;
     text-align: center;
     color: #fff;
-    margin-top: 30px;
-    padding: 15px;
+    margin-top: 5%;
+    padding: 2.5%;
     border-radius: 25px;
     text-decoration: none;
     font-size: 18px;
@@ -119,7 +116,7 @@
     display: flex;
     align-items: center;
     color: #1ed760;
-    margin-left: 300px; 
+    margin-left: 16%;
 }
 
 .first_text_by_playlists {
@@ -129,7 +126,7 @@
 
 .second_text_by_playlists {
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 .button_playlists {
@@ -137,8 +134,8 @@
     background: #1ed760;
     text-align: center;
     color: rgb(41, 65, 171);
-    margin-top: 30px;
-    padding: 15px;
+    margin-top: 5%;
+    padding: 5%;
     border-radius: 25px;
     text-decoration: none;
     font-size: 18px;

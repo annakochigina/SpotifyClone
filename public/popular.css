@@ -1,0 +1,229 @@
+.main {
+    display: grid;
+    grid-template-rows: min-content min-content max-content;
+    overflow-y: auto;
+    background-color: rgb(48, 48, 48);
+    grid-row-gap: 5%;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 12% 1fr 12%;
+}
+
+.center {
+    background-color: rgb(19, 17, 17);
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.head_section {
+    color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.block {
+    display: grid;
+    grid-template-rows: 40% 1fr;
+}
+
+.chapter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.track {
+    display: grid;
+    grid-template-rows: min-content min-content min-content 1fr;
+    justify-items: center;
+}
+
+.track *{
+    margin: 0;
+    padding: 0;
+}
+
+.button_play_first {
+    width: 30px;
+    height: 30px;
+    border:none;
+}
+
+.top_track_header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 2%;
+    color: aliceblue;
+    justify-items: center;
+}
+
+.top_first_header {
+    font-size: 16px;
+}
+
+.top_second_header {
+    font-size: 14px;
+}
+
+.square1 {
+	width: 140px;
+	height: 140px;
+}
+
+.square2 {
+	width: 120px;
+	height: 120px;
+}
+
+.square3 {
+	width: 100px;
+	height: 100px;
+}
+
+.first_three_top_artists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.artists {
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-items: center;
+    padding-top: 2%;
+    position: relative;
+
+}
+
+.circle1 {
+	width: 150px;
+	height: 150px;
+    border-radius: 50%;
+}
+
+.circle2 {
+	width: 130px;
+	height: 130px;
+    border-radius: 50%;
+}
+
+.circle3 {
+	width: 110px;
+	height: 110px;
+    border-radius: 50%;
+}
+
+.circle4 {
+    max-width: 110px;
+    max-height: 110px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+
+}
+
+.list_other_top_artists{
+    -webkit-column-count: 6;
+}
+
+.other_top_artists {
+    padding-right: 30px;
+}
+
+.other_top_songs {
+    display: grid;
+    grid-template-rows: 60px 60px 60px;
+    grid-row-gap: 2%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.track_other_top_artists {
+    display:block;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration:none;
+    font-family: Georgia, serif;
+}
+
+.list {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+}
+
+.first_three_top_artists a {
+    display:block;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration:none;
+    font-family: Georgia, serif;
+}
+
+.first_three_top_artists :hover{
+    color:rgb(123, 214, 18);
+}
+
+.artists :hover {
+    color:rgb(123, 214, 18);
+}
+
+.first_three_top_albums {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.albums {
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-items: center;
+    padding-top: 2%;
+    position: relative;
+}
+
+.first_three_top_albums a {
+    display:block;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration:none;
+    font-family: Georgia, serif;
+}
+
+.first_three_top_albums :hover{
+    color:rgb(123, 214, 18);
+}
+
+.square4 {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.list_other_top_albums{
+    -webkit-column-count: 6;
+}
+
+.other_top_albums {
+    padding-right: 30px;
+}
+
+.track_other_top_albums {
+    display:block;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration:none;
+    font-family: Georgia, serif;
+}
+
+.other_top_albums :hover {
+    color:rgb(123, 214, 18);
+}
