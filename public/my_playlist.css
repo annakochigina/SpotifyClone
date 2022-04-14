@@ -3,31 +3,31 @@
     grid-template-rows: 230px 1fr;
     overflow-y: auto;
     background-color: rgb(48, 48, 48);
-    grid-row-gap: 50px;
+    grid-row-gap: 5%;
 }
 
 .info_playlist {
-    margin-top: 30px;
-    margin-left: 50px;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .head_second_playlist{
     font-size: 36px;
     color: aliceblue;
-    margin-left: 20px;
+    margin-left: 3%;
 }
 
 .head_second_playlist {
     font-size: 26px;
     color: aliceblue;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 1%;
+    margin-left: 3%;
 }
 
 .playlists {
     display: flex;
     justify-content: start;
-    margin-left: 50px;
+    margin-left: 3%;
 }
 
 .playlists ol{
@@ -50,7 +50,7 @@
     display: grid;
     grid-template-rows: min-content min-content;
     justify-items: center;
-    padding-top: 20px;
+    padding-top: 2%;
 }
 
 .image_playlist {

@@ -18,13 +18,13 @@
 .header__logo {
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 5%;
 }
 
 .header__title {
     font-size: 30px;
     font-family: Georgia, serif;
-    padding-left: 25px;
+    padding-left: 5%;
     color: rgb(255, 255, 255);
 }
 
@@ -35,12 +35,11 @@
 .header__navigation {
     display: flex;
     align-items: center;
-    /* margin-right: 10%; */
     margin-right: 200px;
 }
 
 .navigation_profile {
-    margin-right: 50px;
+    margin-right: 1%;
 }
 
 .navigation_point {
@@ -72,15 +71,15 @@
 
 .menu{
     color: white;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 
 .tag {
     display: flex;
     justify-content: start;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 3%;
+    padding-left: 5%;
 }
 
 .tag :hover {
@@ -96,7 +95,7 @@
     text-decoration: none;
     font-family: Georgia, serif;
     font-size: 18px;
-    padding-top: 10px;
-    border-left: 5px;
+    padding-top: 3%;
+    border-left: 5%;
     color: white;
 }

@@ -3,21 +3,21 @@
     grid-template-rows: 150px min-content;
     overflow-y: auto;
     background-color: rgb(48, 48, 48);
-    grid-row-gap: 50px;
+    grid-row-gap: 5%;
 }
 
 .head_first_section {
     font-size: 30px;
     color: white;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .head_second_section {
     font-size: 18px;
     color: white;
-    margin-left: 50px;
-    margin-top: 30px; 
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .tracks {
@@ -30,8 +30,8 @@
     background-color: #000000;
     justify-content: space-between;
     height: 60px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .top_first_header {
